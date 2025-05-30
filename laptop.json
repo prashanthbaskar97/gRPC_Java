@@ -1,0 +1,53 @@
+{
+  "id": "803dfa0d-292a-41e4-9518-c8adb71b7cda",
+  "brand": "Dell",
+  "name": "XPS 15",
+  "cpu": {
+    "brand": "Intel",
+    "name": "i9",
+    "number_cores": 3,
+    "number_threads": 3,
+    "min_ghz": 2.6333526925050936,
+    "max_ghz": 2.656790445207082
+  },
+  "gpus": [{
+    "brand": "AMD",
+    "name": "RX 560",
+    "min_ghz": 1.7393660310619221,
+    "max_ghz": 1.8764686166873235,
+    "memory": {
+      "value": "5",
+      "unit": "GIGABYTE"
+    }
+  }],
+  "storages": [{
+    "driver": "SDD",
+    "memory": {
+      "value": "997",
+      "unit": "GIGABYTE"
+    }
+  }, {
+    "driver": "SDD",
+    "memory": {
+      "value": "3",
+      "unit": "TERABYTE"
+    }
+  }],
+  "screen": {
+    "size_inch": 16.613953,
+    "resolution": {
+      "width": 2791,
+      "height": 1570
+    },
+    "panel": "OLED",
+    "multitouch": false
+  },
+  "keyboard": {
+    "layout": "AZERTY",
+    "backlit": true
+  },
+  "weight_kg": 1.9330492216868134,
+  "price": 2947.6038949717067,
+  "release_year": 2022,
+  "updated_at": "2025-05-29T22:41:08.823679Z"
+}
