@@ -17,8 +17,12 @@ dependencies {
     // https://mvnrepository.com/artifact/com.google.protobuf/protobuf-java
     implementation("com.google.protobuf:protobuf-java:3.21.12")
     implementation("com.google.protobuf:protobuf-java-util:3.21.12")
+
     // https://mvnrepository.com/artifact/io.grpc/grpc-all
     implementation("io.grpc:grpc-all:1.72.0")
+
+    // ✅ Javax annotation API
+    implementation("javax.annotation:javax.annotation-api:1.3.2")
 }
 
 

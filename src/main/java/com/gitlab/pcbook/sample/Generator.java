@@ -5,6 +5,8 @@ import com.google.protobuf.Timestamp;
 
 import java.time.Instant;
 import java.util.Random;
+import java.util.UUID;
+
 public class Generator {
     private Random rand;
     public Generator(){
@@ -120,6 +122,7 @@ public class Generator {
         int releaseyear=randomInt(2015,2025);
 
         return Laptop.newBuilder()
+                .setId(UUID.randomUUID().toString())
                 .setBrand(brand)
                 .setName(name)
                 .setCpu(NewCPU())
